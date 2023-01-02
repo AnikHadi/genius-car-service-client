@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "ENGINE DIAGNOSTIC",
+    "img": "https://i.ibb.co/6X6HgxT/1.jpg",
+    "price": 300,
+    "details": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa."
+  },
+  {
+    "id": 2,
+    "name": "WHEEL ALIGNMENT",
+    "img": "https://i.ibb.co/NsdWmjW/2.jpg",
+    "price": 100,
+    "details": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa."
+  },
+  {
+    "id": 3,
+    "name": "OIL CHANGING",
+    "img": "https://i.ibb.co/zS6j8zc/3.jpg",
+    "price": 150,
+    "details": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa."
+  },
+  {
+    "id": 4,
+    "name": "COMPLETE ANALYSIS",
+    "img": "https://i.ibb.co/sPLsR6X/4.jpg",
+    "price": 300,
+    "details": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa."
+  },
+  {
+    "id": 5,
+    "name": "WASH AND GLASSING",
+    "img": "https://i.ibb.co/mT6qTfw/5.jpg",
+    "price": 100,
+    "details": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa."
+  },
+  {
+    "id": 6,
+    "name": "BRAKE REPARING",
+    "img": "https://i.ibb.co/vvwSWzy/6.jpg",
+    "price": 180,
+    "details": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa."
+  },
+  [
+    {
+      "id": 1,
+      "name": "Will Smith",
+      "img": "https://i.ibb.co/hX8grbj/expert-1.jpg",
+      "details": "Some quick example text to build on the card title and make up the bulk of the card's content."
+    },
+    {
+      "id": 2,
+      "name": "Chris Rock",
+      "img": "https://i.ibb.co/2sJ4p0k/expert-2.jpg",
+      "details": "Some quick example text to build on the card title and make up the bulk of the card's content."
+    },
+    {
+      "id": 3,
+      "name": "Dwayne Rock",
+      "img": "https://i.ibb.co/rb0sFdq/expert-3.jpg",
+      "details": "Some quick example text to build on the card title and make up the bulk of the card's content."
+    },
+    {
+      "id": 4,
+      "name": "Smith Salmon",
+      "img": "https://i.ibb.co/YPtbfWj/expert-4.jpg",
+      "details": "Some quick example text to build on the card title and make up the bulk of the card's content."
+    },
+    {
+      "id": 5,
+      "name": "Rolando John",
+      "img": "https://i.ibb.co/4gNs6fS/expert-5.jpg",
+      "details": "Some quick example text to build on the card title and make up the bulk of the card's content."
+    },
+    {
+      "id": 6,
+      "name": "Stachy Jhonson",
+      "img": "https://i.ibb.co/NFxk5zX/expert-6.png",
+      "details": "Some quick example text to build on the card title and make up the bulk of the card's content."
+    }
+  ]
+]
