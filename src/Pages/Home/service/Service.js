@@ -26,11 +26,20 @@ const Service = () => {
               key={service._id}
             >
               <Card style={{ width: "100%" }} className="col">
-                <Card.Img variant="top" src={service.img} />
+                <Card.Img
+                  style={{ height: "235px" }}
+                  variant="top"
+                  src={service.img}
+                />
                 <Card.Body>
                   <Card.Title>{service.name}</Card.Title>
                   <Card.Text>Price: {service.price}</Card.Text>
-                  <Card.Text>{service.details}</Card.Text>
+                  <Card.Text
+                    style={{ height: "100px" }}
+                    className="overflow-auto"
+                  >
+                    {service.details}
+                  </Card.Text>
                   <Button
                     as={Link}
                     to={`/service/${service._id}`}

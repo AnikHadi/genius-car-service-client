@@ -51,7 +51,6 @@ const Register = () => {
         if (success) {
           await updateProfile({ displayName: name });
           toast("Sent email Verification");
-          console.log(data);
           reset();
         }
       } else {

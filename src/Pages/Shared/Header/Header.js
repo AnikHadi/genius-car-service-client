@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Nav, Navbar } from "react-bootstrap";
+import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
 import { useAuthState, useSignOut } from "react-firebase-hooks/auth";
 import { Link } from "react-router-dom";
 import { toast, ToastContainer } from "react-toastify";
@@ -55,17 +55,19 @@ const Header = () => {
             <Nav.Link as={Link} to="/about">
               About
             </Nav.Link>
-            {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
+            <NavDropdown title="Admin Panel" id="basic-nav-dropdown">
+              <NavDropdown.Item as={Link} to="/manage">
+                Manage
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2">
+                Admin view All
+              </NavDropdown.Item>
+              {/* <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.4">
                 Separated link
-              </NavDropdown.Item>
-            </NavDropdown> */}
+              </NavDropdown.Item> */}
+            </NavDropdown>
           </Nav>
         </Navbar.Collapse>
 

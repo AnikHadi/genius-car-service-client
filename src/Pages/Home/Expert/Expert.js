@@ -24,11 +24,17 @@ const Expert = () => {
               key={expert._id}
             >
               <Card style={{ width: "80%" }} className="col">
-                <Card.Img variant="top" src={expert.img} />
+                <Card.Img height={"280px"} variant="top" src={expert.img} />
                 <Card.Body>
                   <Card.Title>{expert.name}</Card.Title>
-                  <Card.Text>{expert.details}</Card.Text>
+                  <Card.Text
+                    style={{ height: "80px" }}
+                    className="overflow-auto"
+                  >
+                    {expert.details}
+                  </Card.Text>
                   <Button
+                    className="mt-1"
                     as={Link}
                     to={`/expert/${expert._id}`}
                     variant="primary"

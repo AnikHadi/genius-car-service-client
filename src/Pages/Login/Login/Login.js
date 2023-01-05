@@ -47,12 +47,6 @@ const Login = () => {
 
   const passErrorMsg = () => {
     if (errors.password || errors.ConfirmPassword) {
-      // return (
-      //   <p className="text-danger">
-      //     Use at least 8 character 1 Upper case later 1 Number and 1 special
-      //     character
-      //   </p>
-      // );
       toast(
         "Use at least 8 character 1 Upper case later 1 Number and 1 special   character"
       );
@@ -66,7 +60,6 @@ const Login = () => {
       if (password) {
         const success = await signInWithEmailAndPassword(email, password);
         if (success) {
-          console.log(data);
           toast("You are successfully Login");
           reset();
         }
